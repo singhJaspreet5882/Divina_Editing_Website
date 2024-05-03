@@ -1,0 +1,271 @@
+/* css reset */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#navbar {
+    display: flex;
+    position: relative;
+    top: 0;
+}
+#logo{
+    margin: 2px 12px;
+}
+#logo h1{
+    color: white;
+    font-size: 20px;
+    margin: 5px 5px;
+    
+}
+#navbar ul{
+    display: flex;
+    
+}
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+#navbar ul li{
+    margin: 10px 15px;
+    padding: 10px 12px;
+    display: flex;
+    list-style: none;
+}
+#navbar ul li a{
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+#navbar ul li a:hover{
+    color: black;
+    border-radius: 3px;
+}
+.home{
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3px 200px;
+    height: 605px;
+}
+.home::before{
+    display: flex;
+    content: "";
+    background:  url(wedding-poses-and-pre-wedding-photography-poses-Indian-couple24.jpg)no-repeat center center/cover ;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.65;
+
+}
+.home h1{
+    padding: 12px;
+    font-size: 3rem;
+    font-family: 'Castoro Titling', cursive;
+}
+.home p{
+    font-size: 1.2rem;
+}
+.btn{
+    font-size: 1rem;
+    margin: 25px;
+    padding: 8px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(238, 180, 199);
+    cursor: pointer;
+}
+.btn:hover{
+    color: black;
+    background-color: rgb(218, 124, 140)
+}
+.services{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: lightpink;
+}
+ .service-section h1{
+    margin-top: 80px;
+    display: block;
+    text-align: center;
+    justify-content: center;
+}
+.box{
+    margin: 34px 113px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#box1 img{
+    margin: 13px 114px;
+    display: block;
+    height: 200px;
+}
+#box1{
+    margin: 10px 15px;
+    padding: 10px 15px;
+    display: block;
+    background-color: #fde3e7;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 360px;
+    height: 368px;
+    /* float: left; */
+    
+ 
+
+}
+
+#box2 img{
+    margin: 22px 87px;
+    display: block;
+    height: 200px;
+}
+#box2{
+    margin: 10px 15px;
+    padding: 10px 15px;
+    display: block;
+    background-color: #fde3e7;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 360px;
+    height: 368px;
+    /* float: right; */
+}
+#box3 img{
+    margin: 36px 15px;
+    display: block;
+    height: 172px;
+}
+#box3{
+    margin: 10px 15px;
+    padding: 10px 15px;
+    display: block;
+    background-color: #fde3e7;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 360px;
+    height: 368px;
+    /* flex-wrap: wrap; */
+    
+}
+#box4 img{
+    margin: 24px 29px;
+    display: block;
+    height: 200px;
+}
+#box4{
+    margin: 10px 15px;
+    padding: 10px 15px;
+    display: block;
+    background-color: #fde3e7;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 360px;
+    height: 368px;
+    /* float: right; */
+    /* flex-wrap: wrap; */
+}
+#box5 img{
+    margin: 24px 112px;
+    display: block;
+    height: 200px;
+}
+#box5{
+    margin: 10px 15px;
+    padding: 10px 15px;
+    display: block;
+    background-color: #fde3e7;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 360px;
+    height: 368px;
+}
+#box6 img{
+    margin: 24px 2px;
+    display: block;
+    height: 200px;
+}
+#box6{
+    margin: 10px 15px;
+    padding: 10px 15px;
+    display: block;
+    background-color: #fde3e7;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 360px;
+    height: 368px;
+}
+.btns{
+    
+    cursor: pointer;
+    margin:23px 5px ;
+    padding:2px 8px ;
+    background-color: white;
+    border-radius: 15px;
+}
+.btns:hover{
+   background-color:rgb(218, 135, 148);
+}
+#contactus{
+position: relative;
+
+}
+#contactus::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.7;
+    background: url('mandap.jpg') no-repeat center center/cover;
+}
+#contact h1{
+    /* padding: 10px; */
+    margin-bottom: 32px;
+    display: block;
+    text-align: center;
+    justify-content: center;
+}
+.contactbox{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 34px;
+    color: black;
+}
+
+.contactbox input{
+  width: 100%;
+  padding: 0.5rem;
+}
+.contactbox form{
+    width: 30%;
+}
+.form-btn{
+    display: flex;
+    cursor: pointer;
+    margin:5px auto ;
+    padding:6px 24px ;
+    background-color: white;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(243, 208, 213);
+}
+.form-btn:hover{
+    color: rgb(115, 31, 31);
+}
+
