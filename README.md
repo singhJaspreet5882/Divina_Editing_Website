@@ -4,4 +4,3 @@ Features : Wedding Album Editing: Display information about the wedding album ed
 
 Technologies Used : HTML: Provides the structure and semantic markup for the web pages. CSS: Styles the HTML elements to create visually appealing layouts and designs.
 
-For live demo of website visit here - https://singhjaspreet5882.github.io/Divina_Editing_Website/
